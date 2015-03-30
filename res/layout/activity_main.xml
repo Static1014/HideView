@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_condition"
+        android:layout_marginBottom="@dimen/lv_margin_bottom"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_detail"
+        android:layout_alignBottom="@id/rl_condition"
+        android:background="@android:color/holo_orange_light"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/rl_condition"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_condition"
+        android:layout_below="@+id/rl_header" >
+
+        <include layout="@layout/condition_view" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light" />
+
+</RelativeLayout>
