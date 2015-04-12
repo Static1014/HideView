@@ -11,7 +11,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/rl_condition"
         android:layout_marginBottom="@dimen/lv_margin_bottom"
-        android:background="@android:color/darker_gray" />
+        android:background="@android:color/darker_gray"
+        android:layoutAnimation="@anim/list_anim_right_in_long" />
 
     <View
         android:id="@+id/detail"
