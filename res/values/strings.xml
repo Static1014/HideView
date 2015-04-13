@@ -4,5 +4,6 @@
     <string name="app_name">HideView</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
 
 </resources>

@@ -28,30 +28,38 @@ public final class R {
         public static final int lv_margin_bottom=0x7f050002;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int corner_all_2=0x7f020000;
+        public static final int edit_clear=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int psb=0x7f020003;
     }
     public static final class id {
-        public static final int detail=0x7f080002;
-        public static final int lv=0x7f080000;
-        public static final int lv1=0x7f080004;
-        public static final int lv2=0x7f080005;
-        public static final int lv3=0x7f080006;
-        public static final int rl_condition=0x7f080001;
-        public static final int rl_header=0x7f080003;
-        public static final int tv_text=0x7f080008;
-        public static final int tv_title=0x7f080007;
+        public static final int detail=0x7f080005;
+        public static final int iv=0x7f080000;
+        public static final int iv2=0x7f080001;
+        public static final int iv3=0x7f080002;
+        public static final int lv=0x7f080003;
+        public static final int lv1=0x7f080007;
+        public static final int lv2=0x7f080008;
+        public static final int lv3=0x7f080009;
+        public static final int rl_condition=0x7f080004;
+        public static final int rl_header=0x7f080006;
+        public static final int tv_text=0x7f08000b;
+        public static final int tv_title=0x7f08000a;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_menu=0x7f030001;
-        public static final int condition_view=0x7f030002;
-        public static final int item_list1=0x7f030003;
-        public static final int item_list2=0x7f030004;
-        public static final int item_list3=0x7f030005;
+        public static final int activity_image=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_menu=0x7f030002;
+        public static final int condition_view=0x7f030003;
+        public static final int item_list1=0x7f030004;
+        public static final int item_list2=0x7f030005;
+        public static final int item_list3=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060001;
+        public static final int title_activity_image=0x7f060003;
         public static final int title_activity_menu=0x7f060002;
     }
     public static final class style {

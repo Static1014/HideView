@@ -142,6 +142,8 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				animateDetail(true);
+				Intent it = new Intent(MainActivity.this, ImageActivity.class);
+				startActivity(it);
 			}
 		});
 
